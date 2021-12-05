@@ -10,7 +10,7 @@ where pages between 500 and 650;
 
 -- 3
 Select NameBook from book
-where NameBook like 'c%' or 'a%';
+where NameBook like 'c%' or NameBook like 'a%';
 
 -- 4
 Select NameBook from book
